@@ -1,3 +1,8 @@
+@import url("gallery.css"); 
+@import url("nestedgrid.css");
+@import url("button.css");
+
+
 .container{
     display:grid;
     grid-template-columns: 300px 300px 300px;
@@ -15,49 +20,11 @@
     }
 
 
-    .nestedGrid{
-      display: grid;
-      grid-template-columns: 50% 50%;
-      grid-template-rows: 50% 50%;
-      grid-gap: 25px;
-      align-items: center;
-
-    }
-    
-    .gallery { 
-      display: flex;
-      flex-wrap:wrap; 
-      align-content: center;
-      margin: 10px; border: 1px solid rgb(15, 61, 59);
 
     
-   }
+   
+
     
-   
-   
-   .button {
-    border: none;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 60px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
-  
-  .button1 {
-    background-color:#e1eeee;
-    color: rgb(26, 89, 84);
-    border: 2px solid #0c615e;
-  }
-  
-  .button1:hover {
-    background-color: #0c615e;
-    color: white;
-  }
-   
    
    .header{
       grid-area:hd;
