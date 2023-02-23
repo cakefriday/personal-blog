@@ -1,6 +1,7 @@
 @import url("gallery.css"); 
 @import url("nestedgrid.css");
 @import url("button.css");
+@import url("socialbar.css");
 
 
 .container{
@@ -19,13 +20,6 @@
     background: #e1eeee;
     }
 
-
-
-    
-   
-
-    
-   
    .header{
       grid-area:hd;
       background: #9fdbd9;

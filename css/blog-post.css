@@ -1,15 +1,19 @@
+
+
 /* Mobile first */
 .container{
     display:grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 250px 600px;
-    grid-gap: 20px;
+    grid-gap: 40px;
       /* Use grid-template-area to create a mobile layout where each named space occupies its own row */
     grid-template-areas:
     "hd"
     "sd"
     "main"
+    "about"
     "ft";
+    
     color: rgb(26, 89, 84);
     background: #e1eeee;
     }
@@ -17,6 +21,31 @@
      
       background: #e1eeee;
   }
+
+
+
+.signature {
+  background: #fffdf6 url("../pics/Aboutme.png") left no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 150px;
+}
+
+.sig-content {
+ 
+  font-size: 1.2em;
+  padding-left: 170px;
+  padding-top: 1em;
+  position: relative;
+  color: rgb(26, 89, 84);;
+}
+
+.sig-content a {
+  color: rgb(26, 89, 84);;
+  text-decoration: underline;
+} 
+
+
   
     .header{
         grid-area:hd;
@@ -46,6 +75,13 @@
     
       
     }
+
+    .about{
+      grid-area: about;
+    }
+
+
+
     .content{
       grid-area: main;
     }
@@ -55,10 +91,10 @@
   .container{
         display:grid;
         grid-template-columns: 300px 300px 300px;
-        grid-template-rows: 250px auto;
+        grid-template-rows: 250px auto auto;
         grid-template-areas: 
         "hd hd hd hd hd hd hd hd"
-        "sd sd main main main main main main"
+        "sd sd main main main main about about"
         "ft ft ft ft ft ft ft ft";
         background: #e1eeee;
         color: rgb(26, 89, 84);
