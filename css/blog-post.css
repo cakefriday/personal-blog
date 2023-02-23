@@ -21,7 +21,7 @@
     .header{
         grid-area:hd;
         background: #9fdbd9;
-        background-image: url("Logo_cakefriday.png");
+        background-image: url("../pics/Logo_cakefriday.png");
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
